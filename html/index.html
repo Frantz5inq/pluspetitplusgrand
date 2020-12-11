@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Plus Petit ou Plus Grand</title>
+		<link rel="stylesheet" href="../css/reset.css">
+		<link rel="stylesheet" href="../css/style.css">
+	</head>
+	<body>
+		<header>
+			<h1>Plus petit ou plus grand</h1>
+			<p>Un jeu Hétic</p>
+		</header>
+
+		<div class="rules">
+			<h2>Règle du jeux :</h2>
+	
+			<ul>
+				<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, harum!</li>
+				<li>Lorem ipsum, dolor sit amet consectetur adipisicing.</li>
+				<li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum minima molestiae officiis?</li>
+				<li>Lorem ipsum dolor sit amet.</li>
+			</ul>
+		</div>
+
+		<table class="search" border="0" align="center">
+			<tbody>
+				<tr>
+					<td align="center" colspan="2"><h3>Plage de recherche</h3></td>
+				</tr>
+				<tr>
+					<td align="center"><span class="fromto">de : </span>
+						<input type="text" name="from" size="6" value="1" style="text-align: center;">
+					</td>
+					<td align="center">&nbsp; &nbsp; &nbsp;<span class="fromto">à :</span>
+						<input type="text" name="to" size="6" value="100" style="text-align: center;">
+					</td>
+				</tr>
+				<tr class="btn-container">
+					<td colspan="2" align="center">
+						<!-- <button>Lancer le jeu</button> -->
+						<input id="start" type="button" value="Lancer le jeu">
+					</td>
+				</tr>
+			</tbody>
+		</table>
+        <table id="resultats">
+        	<thead>
+        		<tr>
+        			<th>Partie N°</th>
+        			<th>Résultat</th>
+        			<th>Tentatives</th>
+        			<th>Nombre à trouver</th>
+        		</tr>
+        	</thead>
+        	<tbody></tbody>
+        </table>
+		<script src="../js/jeu.js"></script>
+	</body>
+</html>
